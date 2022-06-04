@@ -1,0 +1,192 @@
+* {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.fondo-titulo-contacto {
+  background-color: var(--nav-color);
+  padding-top: 3rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border: none;
+}
+
+.titulo-contacto {
+  border: none;
+  border-radius: 40px;
+  font-size: 3rem;
+  color: white;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  margin-bottom: 3rem;
+  background-color: var(--bg-color);
+}
+
+.contenido-contacto {
+  background-color: var(--nav-color);
+  padding-bottom: 3rem;
+}
+
+.formulario{
+  background-color: var(--bg-color);
+  border-radius: 40px;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  font-size: 10rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
+  margin-bottom: 4rem;
+}
+
+.form-group {
+  padding-top: 2rem;
+}
+
+.form-control{
+  padding-top: 1rem !important;
+  font-size: 2.5rem !important;
+}
+
+.informacion-contacto {
+  text-align: center;
+  display: inline;
+  font-size: 4rem;
+  color: white;
+}
+
+@media(min-width: 992px) {
+  * {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  
+  .fondo-titulo-contacto {
+    background-color: var(--nav-color);
+    padding-top: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: none;
+  }
+  
+  .titulo-contacto {
+    border: none;
+    border-radius: 40px;
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    margin-bottom: 3rem;
+    background-color: var(--bg-color);
+  }
+  
+  .contenido-contacto {
+    background-color: var(--nav-color);
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 3rem;
+  }
+  
+  .formulario{
+    width: 45vw;
+    background-color: var(--bg-color);
+    border-radius: 40px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-size: 10rem;
+    margin-left: 2rem;
+    margin-right: 6rem;
+    margin-bottom: 4rem;
+  }
+  
+  .form-group {
+    padding-top: 2rem;
+  }
+  
+  .form-control{
+    padding-top: 1rem !important;
+    font-size: 2.5rem !important;
+  }
+  
+  .informacion-contacto {
+    text-align: center;
+    display: inline;
+    font-size: 4rem;
+    color: white;
+  }
+}
+
+@media(min-width: 992px) {
+  * {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  
+  .fondo-titulo-contacto {
+    background-color: var(--nav-color);
+    padding-top: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: none;
+  }
+  
+  .titulo-contacto {
+    border: none;
+    border-radius: 40px;
+    font-size: 4rem;
+    color: white;
+    font-weight: bold;
+    padding: 2.5rem 4rem;
+    margin-bottom: 3rem;
+    background-color: var(--bg-color);
+  }
+  
+  .contenido-contacto {
+    background-color: var(--nav-color);
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 3rem;
+  }
+  
+  .formulario{
+    width: 45vw;
+    background-color: var(--bg-color);
+    border-radius: 40px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-size: 10rem;
+    margin-left: 0;
+    margin-right: 6rem;
+    margin-bottom: 4rem;
+  }
+  
+  .form-group {
+    padding-top: 2rem;
+  }
+  
+  .form-control{
+    padding-top: 1rem !important;
+    font-size: 2.5rem !important;
+  }
+  
+  .informacion-contacto {
+    text-align: center;
+    display: inline;
+    font-size: 4rem;
+    color: white;
+  }
+}

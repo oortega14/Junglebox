@@ -1,0 +1,340 @@
+* {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.titulo-servicios-fondo {
+  background-color: var(--bg-color);
+  padding-top: 3rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border: none;
+}
+
+.titulo-servicios {
+  border: none;
+  border-radius: 40px;
+  font-size: 3rem;
+  color: white;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  background-color: var(--nav-color);
+}
+
+.subtitulo-servicios {
+  border: none;
+  text-align: center;
+  padding: 2rem 3rem;
+  background-color: var(--bg-color);
+  color: white;
+  font-size: 3rem;
+}
+
+.cards {
+  border: none;
+  display: block;
+  background-color: var(--bg-color);
+  justify-content: space-evenly;
+  
+}
+
+.cards-first {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 3rem;
+}
+
+.cards-second {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 3rem;
+}
+
+.card {
+  max-width: 30rem;
+  border-radius: 40px !important;
+  text-align: center;
+}
+
+.card1 .img-card{
+  padding-top: 3rem;
+  padding-right: 1rem;
+}
+
+.card2 .img-card{
+  padding-top: 3.5rem;
+  padding-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card3 .img-card{
+  padding-top: 3rem;
+  padding-right: -1rem;
+  padding-left: -1rem;
+  margin-bottom: 1rem;
+}
+
+.card4 .img-card{
+  padding-top: 3rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.img-card {
+  border-radius: 40px !important;
+  background-color: var(--black-opacity);
+  padding-top: 2rem;
+  filter: brightness(170%);
+}
+
+strong {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.card-text {
+  font-size: 2.5rem;
+}
+
+.btn {
+  color: white !important;
+  border:none !important;
+  background-color: var(--nav-color) !important;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+  border-radius: 40px !important;
+  font-size: 2.5rem !important;
+}
+
+@media(min-width: 992px) {
+  * {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.titulo-servicios-fondo {
+  background-color: var(--bg-color);
+  padding-top: 3rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.titulo-servicios {
+  border-radius: 40px;
+  font-size: 3rem;
+  color: white;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  background-color: var(--nav-color);
+}
+
+.subtitulo-servicios {
+  text-align: center;
+  padding: 2rem 3rem;
+  background-color: var(--bg-color);
+  color: white;
+  font-size: 3rem;
+}
+
+.cards {
+  display: flex;
+  background-color: var(--bg-color);
+  justify-content: space-evenly;
+  
+}
+
+.cards-first {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 3rem;
+}
+
+.cards-second {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 3rem;
+}
+
+.card {
+  max-width: 30rem;
+  margin-left: 3rem;
+  border-radius: 40px !important;
+  text-align: center;
+}
+
+.card1 .img-card{
+  padding-top: 3rem;
+  padding-right: 1rem;
+}
+
+.card2 .img-card{
+  padding-top: 3.5rem;
+  padding-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card3 .img-card{
+  padding-top: 3rem;
+  padding-right: -1rem;
+  padding-left: -1rem;
+  margin-bottom: 1rem;
+}
+
+.card4 .img-card{
+  padding-top: 3rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.img-card {
+  border-radius: 40px !important;
+  background-color: var(--black-opacity);
+  padding-top: 2rem;
+  filter: brightness(170%);
+}
+
+strong {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.card-text {
+  font-size: 2.5rem;
+}
+
+.btn {
+  color: white !important;
+  border:none !important;
+  background-color: var(--nav-color) !important;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+  border-radius: 40px !important;
+  font-size: 2.5rem !important;
+}
+}
+
+@media (min-width: 1400px){
+  * {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  
+  .titulo-servicios-fondo {
+    background-color: var(--bg-color);
+    padding-top: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .titulo-servicios {
+    border-radius: 40px;
+    font-size: 4rem;
+    color: white;
+    font-weight: bold;
+    padding: 2.5rem 3rem;
+    background-color: var(--nav-color);
+  }
+  
+  .subtitulo-servicios {
+    text-align: center;
+    padding: 2rem 3rem;
+    background-color: var(--bg-color);
+    color: white;
+    font-size: 4rem;
+  }
+  
+  .cards {
+    display: flex;
+    background-color: var(--bg-color);
+    justify-content: space-evenly;
+    
+  }
+  
+  .cards-first {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 3rem;
+  }
+  
+  .cards-second {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 3rem;
+  }
+  
+  .card {
+    max-width: 30rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    border-radius: 40px !important;
+    text-align: center;
+  }
+  
+  .card1 .img-card{
+    padding-top: 3rem;
+    padding-right: 1rem;
+  }
+  
+  .card2 .img-card{
+    padding-top: 3.5rem;
+    padding-right: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .card3 .img-card{
+    padding-top: 3rem;
+    padding-right: -1rem;
+    padding-left: -1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .card4 .img-card{
+    padding-top: 3rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .img-card {
+    border-radius: 40px !important;
+    background-color: var(--black-opacity);
+    padding-top: 2rem;
+    filter: brightness(170%);
+  }
+  
+  strong {
+    font-weight: bold;
+    font-size: 2.5rem;
+  }
+  
+  .card-text {
+    font-size: 2.5rem;
+  }
+  
+  .btn {
+    color: white !important;
+    border:none !important;
+    background-color: var(--nav-color) !important;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    border-radius: 40px !important;
+    font-size: 2.5rem !important;
+  }
+}

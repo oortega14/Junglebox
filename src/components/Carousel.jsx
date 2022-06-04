@@ -1,6 +1,7 @@
 import React from 'react';
 import Banner1 from '../assets/images/Banner_home_uno.jpg';
 import Banner2 from '../assets/images/Banner_home_dos.jpg';
+import '../css/Carousel.css';
 
 const Carousel = () => {
   return (
@@ -28,22 +29,10 @@ const Carousel = () => {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={Banner1} className="d-block w-100" alt="..." />
-            <div className="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>
-                Some representative placeholder content for the first slide.
-              </p>
-            </div>
+            <img src={Banner1} className="d-block w-100 imagenes" alt="..." />
           </div>
           <div className="carousel-item">
-            <img src={Banner2} className="d-block w-100" alt="..." />
-            <div className="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>
-                Some representative placeholder content for the second slide.
-              </p>
-            </div>
+            <img src={Banner2} className="d-block w-100 imagenes" alt="..." />
           </div>
         </div>
         <button

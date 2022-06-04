@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.flex-container-nav {
+  display: flex;
+  background-color: var(--nav-color);
+}
+
+.container-logo {
+  margin-top: 3rem;
+  text-align: center;
+  width: 50%;
+}
+
+.button-container .navbar-toggler {
+  font-size: 5rem;
+  
+}
+
+.navbar-nav .nav-item  {
+  color: white !important;
+}
+
+.navbar {
+  font-weight: bold;
+  height: 10rem;
+  z-index: 20;
+  font-size: 30rem;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 3.8rem !important;
+  height: 0.8rem !important;
+  transition: opacity 5s ease !important;
+}
+
+.logo {
+  margin-left: 5rem;
+  
+}
+
+.menu {
+  font-size: 12rem;
+  width: 60vw;
+  color: white !important;
+}
+
+.navbar-nav .nav-item {
+  margin-left: 1.5rem;
+}
+
+
+.img-card {
+  width: 8rem;
+  height: 25rem;
+}
+
+.formulario {
+  font-size: 25rem;
+}

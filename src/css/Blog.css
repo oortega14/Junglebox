@@ -1,0 +1,232 @@
+* {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.fondo-titulo-blog {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: var(--black-opacity)
+}
+
+.titulo-blog {
+  border: none;
+  border-radius: 40px;
+  font-size: 3rem;
+  color: white;
+  font-weight: bold;
+  padding: 1rem 3rem;
+  background-color: var(--nav-color);
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.contenido-blog {
+  border: none;
+  padding-bottom: 3rem;
+  background-color: var(--black-opacity)
+}
+
+.subtitulo-blog {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  text-align: center;
+  font-size:3rem;
+  background-color: var(--bg-color);
+  border-radius: 40px;
+  font-weight: bold;
+}
+
+.parrafo-blog {
+  padding: 2rem 4rem;
+  font-size:2.5rem;
+}
+
+.envoltura-imagen-blog {
+  width: 100%;
+}
+
+.imagen-blog {
+  padding: 2rem 5rem;
+}
+
+.img {
+  width: 100%;
+}
+
+.texto-blog {
+  margin: 0rem 5rem;
+  color: white;
+  border-radius: 40px;
+  text-align: center;
+  background-color: var(--nav-color-opacity);
+  padding-bottom: 3rem;
+}
+
+.boton-blog {
+  font-size: 2.5rem;
+  border-radius: 40px;
+  padding: 1rem 3rem;
+}
+
+@media(min-width: 992px) {
+  * {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  
+  .fondo-titulo-blog {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--black-opacity)
+  }
+  
+  .titulo-blog {
+    border: none;
+    border-radius: 40px;
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+    padding: 1rem 3rem;
+    background-color: var(--nav-color);
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  .contenido-blog {
+    border: none;
+    display: flex;
+    background-color: var(--black-opacity)
+  }
+  
+  .subtitulo-blog {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+    font-size:3rem;
+    background-color: var(--bg-color);
+    border-radius: 40px;
+    font-weight: bold;
+  }
+  
+  .parrafo-blog {
+    padding: 2rem 4rem;
+    font-size:2.5rem;
+  }
+  
+  .envoltura-imagen-blog {
+    
+    width: 100%;
+  }
+  
+  .imagen-blog {
+    display: flex;
+    align-items: center;
+    padding: 2rem 5rem;
+  }
+  
+  .img {
+    min-height: 25rem;
+    width: 100%;
+  }
+  
+  .texto-blog {
+    margin: 2rem 5rem;
+    color: white;
+    border-radius: 40px;
+    text-align: center;
+    background-color: var(--nav-color-opacity);
+    padding-bottom: 3rem;
+  }
+  
+  .boton-blog {
+    font-size: 2.5rem;
+    border-radius: 40px;
+    padding: 1rem 3rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  * {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  
+  .fondo-titulo-blog {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--black-opacity)
+  }
+  
+  .titulo-blog {
+    border: none;
+    border-radius: 40px;
+    font-size: 4rem;
+    color: white;
+    font-weight: bold;
+    padding: 2.5rem 4rem;
+    background-color: var(--nav-color);
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  .contenido-blog {
+    border: none;
+    
+    background-color: var(--black-opacity)
+  }
+  
+  .subtitulo-blog {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+    font-size:3rem;
+    background-color: var(--bg-color);
+    border-radius: 40px;
+    font-weight: bold;
+  }
+  
+  .parrafo-blog {
+    padding: 2rem 4rem;
+    font-size:2.5rem;
+  }
+  
+  .envoltura-imagen-blog {
+    width: 100%;
+  }
+  
+  .imagen-blog {
+    padding: 2rem 5rem;
+  }
+  
+  .img {
+    width: 100%;
+  }
+  
+  .texto-blog {
+    margin: 2rem 5rem;
+    color: white;
+    border-radius: 40px;
+    text-align: center;
+    background-color: var(--nav-color-opacity);
+    padding-bottom: 3rem;
+  }
+  
+  .boton-blog {
+    font-size: 2.5rem;
+    border-radius: 40px;
+    padding: 1rem 3rem;
+  }
+}
