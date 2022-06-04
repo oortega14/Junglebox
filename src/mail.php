@@ -1,16 +1,30 @@
 <?php
+header('Access-Control-Allow-Origin: *');
+header("Access-Control-Allow-Headers: X-API-KEY, Origin, X-Requested-With, Content-Type, Accept, Access-Control-Request-Method");
+header("Access-Control-Allow-Methods: GET, POST, OPTIONS, PUT, DELETE");
+header("Allow: GET, POST, OPTIONS, PUT, DELETE");
+$method = $_SERVER['REQUEST_METHOD'];
+if($method == "OPTIONS") {
+    die();
+}
+
+    if($_POST['METHOD']=='POST'){
+        unset($_)
         $objCorreoCli = new stdClass();
         $objCorreoCli->correoRemitente = utf8_decode("ortegaoscar14@gmail.com");
         $objCorreoCli->nombreRemitente = utf8_decode("Administrador ");
         $objCorreoCli->correoDestinatario = utf8_decode("contacto@myjunglebox.com");
-        $objCorreoCli->nombreDestinatario = $Nombre;
-        $objCorreoCli->telefono = $Telephone;
-        $objCorreoCli->asunto = $affair;
-        $objCorreoCli->mensaje = $message;
+        $objCorreoCli->nombreDestinatario = $nombre;
+        $objCorreoCli->telefono = $telefono;
+        $objCorreoCli->asunto = $asunto;
+        $objCorreoCli->mensaje = $mensaje;
         $correoEnviado = $this->envioCorreoCliente ($objCorreoCli);
+    }
 
 
-    public function envioCorreoCliente(stdClass $objCorreoCli) {
+
+
+    function envioCorreoCliente(stdClass $objCorreoCli) {
         $mail = new PHPMailer();
         $mail->IsSMTP();
         $mail->SMTPAuth = true;
@@ -31,5 +45,4 @@
             return true;
         }
     }
-    
 ?>
