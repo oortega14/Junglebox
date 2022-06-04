@@ -52,6 +52,7 @@
 
 .navbar-nav .nav-item {
   margin-left: 1.5rem;
+  cursor: pointer;
 }
 
 

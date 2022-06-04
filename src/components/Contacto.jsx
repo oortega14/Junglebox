@@ -1,51 +1,91 @@
-import React from 'react';
+import { React, useState } from 'react';
 import '../css/Contacto.css';
+import axios from 'axios';
 
 const Contacto = () => {
+  const baseUrl = 'http://localhost/junglebox/mail.php';
+  const [data, setData] = useState([]);
+  const [newuser, setNewuser] = useState({
+    id: '',
+    nombre: '',
+    telefono: '',
+    asunto: '',
+    mensaje: '',
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setNewuser((prevState) => ({
+      ...prevState,
+      [name]: value,
+    }));
+    console.log(newuser);
+  };
+
+  const peticionPost = async () => {
+    var f = new FormData();
+    f.append('nombre', newuser.nombre);
+    f.append('telefono', newuser.telefono);
+    f.append('asunto', newuser.asunto);
+    f.append('mensaje', newuser.mensaje);
+    f.append('METHOD', 'POST');
+    await axios.post(baseUrl).then((response) => {
+      setData(data.concat(response.data));
+    });
+  };
+
   return (
     <>
-      <section className="fondo-titulo-contacto" id='Contacto'>
+      <section className="fondo-titulo-contacto" id="Contacto">
         <h1 className="titulo-contacto">CONTACTO</h1>
       </section>
       <section className="contenido-contacto">
-        <div className='formulario'>
+        <div className="formulario">
           <form>
             <div className="form-group">
               <input
                 type="text"
                 className="form-control"
-                id="InputName"
+                name="nombre"
                 aria-describedby="nameHelp"
                 placeholder="Nombre Completo:"
+                onChange={handleChange}
               />
             </div>
             <div className="form-group">
               <input
                 type="number"
                 className="form-control"
-                id="InputTelephone"
+                name="telefono"
                 placeholder="Telefono:"
+                onChange={handleChange}
               />
             </div>
             <div className="form-group">
               <input
                 type="text"
                 className="form-control"
-                id="Inputaffair"
+                name="asunto"
                 aria-describedby="affairHelp"
                 placeholder="Asunto:"
+                onChange={handleChange}
               />
             </div>
             <div className="form-group">
               <input
                 type="textarea"
                 className="form-control"
-                id="InputMessage"
+                name="mensaje"
                 aria-describedby="messageHelp"
                 placeholder="Mensaje:"
+                onChange={handleChange}
               />
             </div>
-            <button type="submit" className="btn btn-primary">
+            <button
+              type="button"
+              className="btn btn-primary"
+              onClick={() => peticionPost()}
+            >
               Enviar
             </button>
           </form>
